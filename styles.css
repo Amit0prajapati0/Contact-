@@ -1,0 +1,63 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #E9FF06;
+}
+
+.contact-form {
+  background: #07F30D;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 88%;
+  padding-left: 40px;
+}
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: #00FF03;
+  color: black;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #FF0000;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button:hover{
+  background-color: #FFF218;
+  color: #F20000;
+} 
+
+
+#responseMessage {
+  margin-top: 10px;
+  color: #d9534f;
+}
